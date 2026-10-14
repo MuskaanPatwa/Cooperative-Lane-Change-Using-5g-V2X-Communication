@@ -1,0 +1,16 @@
+scenario,seed,collisions,min_gap_m,min_ttc_s,braking_events,emergency_events,peak_decel_mps2,evasive_lane_changes,avg_speed_kmh
+baseline,0,0,8.6,2.9,1,0,2.6,6,91.5
+baseline,1,0,22.1,4.0,0,0,1.2,1,79.6
+baseline,2,0,22.1,4.0,0,0,1.2,3,83.9
+slow_leader,0,0,11.5,2.5,1,1,6.2,8,91.6
+slow_leader,1,0,9.1,2.5,3,1,6.2,11,96.7
+slow_leader,2,0,7.1,2.5,3,1,6.2,7,81.5
+sudden_brake,0,0,3.8,1.2,51,12,8.0,11,85.2
+sudden_brake,1,0,4.4,1.4,21,3,8.0,13,85.7
+sudden_brake,2,0,4.0,1.5,23,4,8.0,10,85.4
+boxed_in,0,0,5.3,2.6,1,0,2.5,7,82.2
+boxed_in,1,0,5.3,2.6,4,1,5.0,9,83.6
+boxed_in,2,0,5.3,2.6,1,0,2.5,3,72.1
+dense_traffic,0,0,18.7,7.4,1,0,4.7,1,68.0
+dense_traffic,1,0,18.7,7.4,1,0,4.7,1,68.0
+dense_traffic,2,0,18.7,7.4,1,0,4.7,1,67.9
